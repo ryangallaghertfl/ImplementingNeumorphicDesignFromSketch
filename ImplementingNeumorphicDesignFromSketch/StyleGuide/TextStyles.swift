@@ -11,18 +11,16 @@ struct TextStyles: View {
     var body: some View {
         VStack {
             Text("Title")
-                //.font(.custom("AvenirNext-DemiBold", size: 48, relativeTo: .title))
-                //.modifier(TitleStyle())
                 .titleStyle()
             
             Text("BoldBody")
-                .font(.custom("AvenirNext-DemiBold", size: 20, relativeTo: .body))
+                .boldBodyStyle()
             
             Text("Body")
-                .font(.custom("AvenirNext-Medium", size: 20, relativeTo: .body))
+                .bodyStyle()
 
             Text("Caption")
-                .font(.custom("AvenirNext-Medium", size: 14, relativeTo: .caption))
+                .captionStyle()
             
             Text("System font")
                 .font(.largeTitle)
