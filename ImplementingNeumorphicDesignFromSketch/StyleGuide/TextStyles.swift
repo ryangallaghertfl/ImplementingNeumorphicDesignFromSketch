@@ -30,24 +30,43 @@ struct TextStyles: View {
     }
 }
 
+
+
+
+
+#Preview {
+    TextStyles()
+}
+
+//MARK: CustomFonts enum to return desired font
+
+enum CustomFonts {
+    case avenirNextDemiBold
+    case avenirNextMedium
+    
+    var fontName: String {
+        switch self {
+        case .avenirNextDemiBold:
+            return "AvenirNext-DemiBold"
+        case .avenirNextMedium:
+            return "AvenirNext-Medium"
+        }
+    }
+}
+
+//MARK: Extension to View allows the viewmodifier to be called directly on the views
+
 extension View {
     public func titleStyle() -> some View {
         modifier(TitleStyle())
     }
 }
 
-//enum CustomFonts {
-//    case AvenirNextDemiBold
-//    case AvenirNextMedium
-//}
+//MARK: ViewModifiers for base neumorphic fonts from the Sketch design
 
 struct TitleStyle: ViewModifier {
     
     func body(content: Content) -> some View {
-        content.font(.custom("AvenirNext-DemiBold", size: 48, relativeTo: .title))
+        content.font(.custom(CustomFonts.avenirNextDemiBold.fontName, size: 48, relativeTo: .title))
     }
-}
-
-#Preview {
-    TextStyles()
 }
