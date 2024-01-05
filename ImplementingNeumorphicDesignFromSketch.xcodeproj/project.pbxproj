@@ -14,6 +14,7 @@
 		A113D7FF2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D7FE2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests.swift */; };
 		A113D8092B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D8082B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests.swift */; };
 		A113D80B2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D80A2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift */; };
+		A113D81B2B48289800510B3B /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D81A2B48289800510B3B /* TextStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		A113D8082B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementingNeumorphicDesignFromSketchUITests.swift; sourceTree = "<group>"; };
 		A113D80A2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A113D8182B48266500510B3B /* neumorphic-ui-kit-nodos.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "neumorphic-ui-kit-nodos.sketch"; sourceTree = "<group>"; };
+		A113D81A2B48289800510B3B /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		A113D7EC2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketch */ = {
 			isa = PBXGroup;
 			children = (
+				A113D8192B48287600510B3B /* StyleGuide */,
 				A113D8172B48263900510B3B /* SketchUIFiles */,
 				A113D7ED2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketchApp.swift */,
 				A113D7EF2B481C7B00510B3B /* ContentView.swift */,
@@ -135,6 +138,14 @@
 				A113D8182B48266500510B3B /* neumorphic-ui-kit-nodos.sketch */,
 			);
 			path = SketchUIFiles;
+			sourceTree = "<group>";
+		};
+		A113D8192B48287600510B3B /* StyleGuide */ = {
+			isa = PBXGroup;
+			children = (
+				A113D81A2B48289800510B3B /* TextStyles.swift */,
+			);
+			path = StyleGuide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A113D81B2B48289800510B3B /* TextStyles.swift in Sources */,
 				A113D7F02B481C7B00510B3B /* ContentView.swift in Sources */,
 				A113D7EE2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketchApp.swift in Sources */,
 			);
