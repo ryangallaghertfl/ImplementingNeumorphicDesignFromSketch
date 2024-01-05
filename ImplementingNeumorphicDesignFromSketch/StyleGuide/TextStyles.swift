@@ -70,3 +70,24 @@ struct TitleStyle: ViewModifier {
         content.font(.custom(CustomFonts.avenirNextDemiBold.fontName, size: 48, relativeTo: .title))
     }
 }
+
+struct BodyStyle: ViewModifier {
+    
+    func body(content: Content) -> some View {
+        content.font(.custom(CustomFonts.avenirNextMedium.fontName, size: 20, relativeTo: .body))
+    }
+}
+
+struct BoldBodyStyle: ViewModifier {
+    
+    func body(content: Content) -> some View {
+        content.font(.custom(CustomFonts.avenirNextDemiBold.fontName, size: 20, relativeTo: .body))
+    }
+}
+
+struct CaptionStyle: ViewModifier {
+    
+    func body(content: Content) -> some View {
+        content.font(.custom(CustomFonts.avenirNextMedium.fontName, size: 14, relativeTo: .caption))
+    }
+}
