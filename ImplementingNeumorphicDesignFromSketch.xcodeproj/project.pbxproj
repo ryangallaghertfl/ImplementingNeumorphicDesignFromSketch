@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A113D7EE2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D7ED2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketchApp.swift */; };
+		A113D7F02B481C7B00510B3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D7EF2B481C7B00510B3B /* ContentView.swift */; };
+		A113D7F22B481C7C00510B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A113D7F12B481C7C00510B3B /* Assets.xcassets */; };
+		A113D7F52B481C7C00510B3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A113D7F42B481C7C00510B3B /* Preview Assets.xcassets */; };
+		A113D7FF2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D7FE2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests.swift */; };
+		A113D8092B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D8082B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests.swift */; };
+		A113D80B2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D80A2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A113D7FB2B481C7C00510B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A113D7E22B481C7B00510B3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A113D7E92B481C7B00510B3B;
+			remoteInfo = ImplementingNeumorphicDesignFromSketch;
+		};
+		A113D8052B481C7C00510B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A113D7E22B481C7B00510B3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A113D7E92B481C7B00510B3B;
+			remoteInfo = ImplementingNeumorphicDesignFromSketch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A113D7EA2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImplementingNeumorphicDesignFromSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A113D7ED2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementingNeumorphicDesignFromSketchApp.swift; sourceTree = "<group>"; };
+		A113D7EF2B481C7B00510B3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A113D7F12B481C7C00510B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A113D7F42B481C7C00510B3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A113D7FA2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImplementingNeumorphicDesignFromSketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A113D7FE2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementingNeumorphicDesignFromSketchTests.swift; sourceTree = "<group>"; };
+		A113D8042B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImplementingNeumorphicDesignFromSketchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A113D8082B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementingNeumorphicDesignFromSketchUITests.swift; sourceTree = "<group>"; };
+		A113D80A2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A113D7E72B481C7B00510B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A113D7F72B481C7C00510B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A113D8012B481C7C00510B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A113D7E12B481C7B00510B3B = {
+			isa = PBXGroup;
+			children = (
+				A113D7EC2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketch */,
+				A113D7FD2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests */,
+				A113D8072B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests */,
+				A113D7EB2B481C7B00510B3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A113D7EB2B481C7B00510B3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A113D7EA2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketch.app */,
+				A113D7FA2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests.xctest */,
+				A113D8042B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A113D7EC2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketch */ = {
+			isa = PBXGroup;
+			children = (
+				A113D7ED2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketchApp.swift */,
+				A113D7EF2B481C7B00510B3B /* ContentView.swift */,
+				A113D7F12B481C7C00510B3B /* Assets.xcassets */,
+				A113D7F32B481C7C00510B3B /* Preview Content */,
+			);
+			path = ImplementingNeumorphicDesignFromSketch;
+			sourceTree = "<group>";
+		};
+		A113D7F32B481C7C00510B3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A113D7F42B481C7C00510B3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A113D7FD2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A113D7FE2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests.swift */,
+			);
+			path = ImplementingNeumorphicDesignFromSketchTests;
+			sourceTree = "<group>";
+		};
+		A113D8072B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A113D8082B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests.swift */,
+				A113D80A2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift */,
+			);
+			path = ImplementingNeumorphicDesignFromSketchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A113D7E92B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A113D80E2B481C7C00510B3B /* Build configuration list for PBXNativeTarget "ImplementingNeumorphicDesignFromSketch" */;
+			buildPhases = (
+				A113D7E62B481C7B00510B3B /* Sources */,
+				A113D7E72B481C7B00510B3B /* Frameworks */,
+				A113D7E82B481C7B00510B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImplementingNeumorphicDesignFromSketch;
+			productName = ImplementingNeumorphicDesignFromSketch;
+			productReference = A113D7EA2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A113D7F92B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A113D8112B481C7C00510B3B /* Build configuration list for PBXNativeTarget "ImplementingNeumorphicDesignFromSketchTests" */;
+			buildPhases = (
+				A113D7F62B481C7C00510B3B /* Sources */,
+				A113D7F72B481C7C00510B3B /* Frameworks */,
+				A113D7F82B481C7C00510B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A113D7FC2B481C7C00510B3B /* PBXTargetDependency */,
+			);
+			name = ImplementingNeumorphicDesignFromSketchTests;
+			productName = ImplementingNeumorphicDesignFromSketchTests;
+			productReference = A113D7FA2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A113D8032B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A113D8142B481C7C00510B3B /* Build configuration list for PBXNativeTarget "ImplementingNeumorphicDesignFromSketchUITests" */;
+			buildPhases = (
+				A113D8002B481C7C00510B3B /* Sources */,
+				A113D8012B481C7C00510B3B /* Frameworks */,
+				A113D8022B481C7C00510B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A113D8062B481C7C00510B3B /* PBXTargetDependency */,
+			);
+			name = ImplementingNeumorphicDesignFromSketchUITests;
+			productName = ImplementingNeumorphicDesignFromSketchUITests;
+			productReference = A113D8042B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A113D7E22B481C7B00510B3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A113D7E92B481C7B00510B3B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					A113D7F92B481C7C00510B3B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A113D7E92B481C7B00510B3B;
+					};
+					A113D8032B481C7C00510B3B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A113D7E92B481C7B00510B3B;
+					};
+				};
+			};
+			buildConfigurationList = A113D7E52B481C7B00510B3B /* Build configuration list for PBXProject "ImplementingNeumorphicDesignFromSketch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A113D7E12B481C7B00510B3B;
+			productRefGroup = A113D7EB2B481C7B00510B3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A113D7E92B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketch */,
+				A113D7F92B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests */,
+				A113D8032B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A113D7E82B481C7B00510B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A113D7F52B481C7C00510B3B /* Preview Assets.xcassets in Resources */,
+				A113D7F22B481C7C00510B3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A113D7F82B481C7C00510B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A113D8022B481C7C00510B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A113D7E62B481C7B00510B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A113D7F02B481C7B00510B3B /* ContentView.swift in Sources */,
+				A113D7EE2B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A113D7F62B481C7C00510B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A113D7FF2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A113D8002B481C7C00510B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A113D8092B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITests.swift in Sources */,
+				A113D80B2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A113D7FC2B481C7C00510B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A113D7E92B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketch */;
+			targetProxy = A113D7FB2B481C7C00510B3B /* PBXContainerItemProxy */;
+		};
+		A113D8062B481C7C00510B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A113D7E92B481C7B00510B3B /* ImplementingNeumorphicDesignFromSketch */;
+			targetProxy = A113D8052B481C7C00510B3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A113D80C2B481C7C00510B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A113D80D2B481C7C00510B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A113D80F2B481C7C00510B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImplementingNeumorphicDesignFromSketch/Preview Content\"";
+				DEVELOPMENT_TEAM = 29QRCNRYL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RyanGallagher.ImplementingNeumorphicDesignFromSketch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A113D8102B481C7C00510B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImplementingNeumorphicDesignFromSketch/Preview Content\"";
+				DEVELOPMENT_TEAM = 29QRCNRYL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RyanGallagher.ImplementingNeumorphicDesignFromSketch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A113D8122B481C7C00510B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29QRCNRYL3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RyanGallagher.ImplementingNeumorphicDesignFromSketchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImplementingNeumorphicDesignFromSketch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImplementingNeumorphicDesignFromSketch";
+			};
+			name = Debug;
+		};
+		A113D8132B481C7C00510B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29QRCNRYL3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RyanGallagher.ImplementingNeumorphicDesignFromSketchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImplementingNeumorphicDesignFromSketch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImplementingNeumorphicDesignFromSketch";
+			};
+			name = Release;
+		};
+		A113D8152B481C7C00510B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29QRCNRYL3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RyanGallagher.ImplementingNeumorphicDesignFromSketchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImplementingNeumorphicDesignFromSketch;
+			};
+			name = Debug;
+		};
+		A113D8162B481C7C00510B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29QRCNRYL3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RyanGallagher.ImplementingNeumorphicDesignFromSketchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImplementingNeumorphicDesignFromSketch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A113D7E52B481C7B00510B3B /* Build configuration list for PBXProject "ImplementingNeumorphicDesignFromSketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A113D80C2B481C7C00510B3B /* Debug */,
+				A113D80D2B481C7C00510B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A113D80E2B481C7C00510B3B /* Build configuration list for PBXNativeTarget "ImplementingNeumorphicDesignFromSketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A113D80F2B481C7C00510B3B /* Debug */,
+				A113D8102B481C7C00510B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A113D8112B481C7C00510B3B /* Build configuration list for PBXNativeTarget "ImplementingNeumorphicDesignFromSketchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A113D8122B481C7C00510B3B /* Debug */,
+				A113D8132B481C7C00510B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A113D8142B481C7C00510B3B /* Build configuration list for PBXNativeTarget "ImplementingNeumorphicDesignFromSketchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A113D8152B481C7C00510B3B /* Debug */,
+				A113D8162B481C7C00510B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A113D7E22B481C7B00510B3B /* Project object */;
+}
