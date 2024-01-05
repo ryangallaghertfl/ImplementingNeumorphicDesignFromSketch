@@ -54,11 +54,23 @@ enum CustomFonts {
     }
 }
 
-//MARK: Extension to View allows the viewmodifier to be called directly on the views
+//MARK: Extensions to View allows the viewmodifiers to be called directly on the views
 
 extension View {
     public func titleStyle() -> some View {
         modifier(TitleStyle())
+    }
+    
+    public func bodyStyle() -> some View {
+        modifier(BodyStyle())
+    }
+    
+    public func boldBodyStyle() -> some View {
+        modifier(BoldBodyStyle())
+    }
+    
+    public func captionStyle() -> some View {
+        modifier(CaptionStyle())
     }
 }
 
