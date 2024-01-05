@@ -21,6 +21,9 @@ struct TextStyles: View {
 
             Text("Caption")
                 .font(.custom("AvenirNext-Medium", size: 14, relativeTo: .caption))
+            
+            Text("System font")
+                .font(.largeTitle)
         }
     }
 }
