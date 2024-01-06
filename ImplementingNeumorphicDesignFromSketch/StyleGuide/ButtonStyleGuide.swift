@@ -21,13 +21,14 @@ struct ButtonStyleGuide: View {
 }
 
 struct SmallPrimaryButtonStyle: ButtonStyle {
-    //configuration object has three properties
+    
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .captionStyle()
             .foregroundColor(.white)
             .padding(12.5)
             .background(Capsule().fill(Color("AccentColor")))
-            .scaleEffect(configuration.isPressed ? 0.8 : 1)
+            .shadow(color: Color("shadowColourGrey"), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 5, y: 5)
+            .shadow(color: Color("shadowColourYellow"), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: -5, y: -5)
     }
 }
