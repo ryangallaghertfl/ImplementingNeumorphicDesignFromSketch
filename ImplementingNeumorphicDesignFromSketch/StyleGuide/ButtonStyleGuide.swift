@@ -19,3 +19,15 @@ struct ButtonStyleGuide: View {
 #Preview {
     ButtonStyleGuide()
 }
+
+struct SmallPrimaryButtonStyle: ButtonStyle {
+    //configuration object has three properties
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .captionStyle()
+            .foregroundColor(.white)
+            .padding(12.5)
+            .background(Capsule().fill(Color("AccentColor")))
+            .scaleEffect(configuration.isPressed ? 0.8 : 1)
+    }
+}
