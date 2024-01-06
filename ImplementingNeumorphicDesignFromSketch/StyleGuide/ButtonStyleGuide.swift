@@ -12,6 +12,11 @@ struct ButtonStyleGuide: View {
         VStack {
             Text("Button Styles").font(.largeTitle)
             
+            Button {
+                
+            } label: {
+                Text("Small primary button style")
+            }.buttonStyle(SmallPrimaryButtonStyle())
         }
     }
 }
