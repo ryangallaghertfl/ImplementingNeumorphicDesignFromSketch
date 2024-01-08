@@ -43,11 +43,15 @@ struct SmallPrimaryButtonStyle: ButtonStyle {
         isEnabled ? Color("AccentColor") : Color("Background-1")
     }
     
+    var textColour: Color {
+        isEnabled ? Color.white : Color("GreyTextColor")
+    }
+    
     
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .captionStyle()
-            .foregroundColor(.white)
+            .foregroundColor(textColour)
             .padding(12.5)
             .background(Capsule().fill(backgroundColour))
             .shadow(color: Color("shadowColourGrey"), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 5, y: 5)
