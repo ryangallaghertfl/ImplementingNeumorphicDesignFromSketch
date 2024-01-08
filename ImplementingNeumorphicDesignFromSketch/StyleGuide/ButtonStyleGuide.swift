@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ButtonStyleGuide: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 30) {
             Text("Button Styles").font(.largeTitle)
             
             Button {
@@ -17,6 +17,13 @@ struct ButtonStyleGuide: View {
             } label: {
                 Text("Small primary button style")
             }.buttonStyle(SmallPrimaryButtonStyle())
+            
+            Button {
+                
+            } label: {
+                Text("Small prim b'n style - disabled")
+            }.buttonStyle(SmallPrimaryButtonStyle())
+                .disabled(true)
         }
     }
 }
