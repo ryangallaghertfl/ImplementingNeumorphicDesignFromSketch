@@ -26,6 +26,12 @@ struct ButtonStyleGuide: View {
 }
 
 struct SmallPrimaryButtonStyle: ButtonStyle {
+    @Environment(\.isEnabled) var isEnabled
+    
+    var lightShadowColour: Color {
+        isEnabled ? Color("shadowColourYellow") : Color("shadowColourLight")
+    }
+    
     
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
@@ -34,6 +40,6 @@ struct SmallPrimaryButtonStyle: ButtonStyle {
             .padding(12.5)
             .background(Capsule().fill(Color("AccentColor")))
             .shadow(color: Color("shadowColourGrey"), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 5, y: 5)
-            .shadow(color: Color("shadowColourYellow"), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: -5, y: -5)
+            .shadow(color: lightShadowColour, radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: -5, y: -5)
     }
 }
