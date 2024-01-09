@@ -56,8 +56,8 @@ struct SmallPrimaryButtonStyle: ButtonStyle {
             .captionStyle()
             .foregroundColor(textColour)
             .padding(12.5)
-            .background(Capsule().fill(backgroundColour))
-            .shadow(color: Color("shadowColourGrey"), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 5, y: 5)
-            .shadow(color: lightShadowColour, radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: -5, y: -5)
+            .background(Capsule()
+                .fill(backgroundColour)
+                .modifier(NeumorphicShadow(isLight: isEnabled)))
     }
 }
