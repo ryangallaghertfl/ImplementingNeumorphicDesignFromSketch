@@ -19,6 +19,21 @@ struct ShadowStyles: View {
     }
 }
 
+struct NeumorphicShadow: ViewModifier {
+    
+    var isLight: Bool
+    
+    var lightShadowColour: Color {
+        isLight ? Color("shadowColourYellow") : Color("shadowColourLight")
+    }
+    
+    func body(content: Content) -> some View {
+        content
+            .shadow(color: Color("shadowColourGrey"), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 5, y: 5)
+            .shadow(color: lightShadowColour, radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: -5, y: -5)
+    }
+}
+
 #Preview {
     ShadowStyles()
 }
