@@ -13,13 +13,13 @@ struct ButtonStyleGuide: View {
             Text("Button Styles").font(.largeTitle)
             
             Button {
-                
+                print("small button tapped")
             } label: {
                 Text("Small primary button style")
             }.buttonStyle(SmallPrimaryButtonStyle())
             
             Button {
-                
+
             } label: {
                 Text("Small prim b'n style - disabled")
             }.buttonStyle(SmallPrimaryButtonStyle())
