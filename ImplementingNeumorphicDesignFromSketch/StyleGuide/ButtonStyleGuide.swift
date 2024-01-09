@@ -24,6 +24,9 @@ struct ButtonStyleGuide: View {
                 Text("Small prim b'n style - disabled")
             }.buttonStyle(SmallPrimaryButtonStyle())
                 .disabled(true)
+                .onTapGesture {
+                    print("This is disabled")
+                }
         }
     }
 }
