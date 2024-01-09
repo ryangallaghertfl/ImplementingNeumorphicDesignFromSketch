@@ -16,6 +16,7 @@
 		A113D80B2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D80A2B481C7C00510B3B /* ImplementingNeumorphicDesignFromSketchUITestsLaunchTests.swift */; };
 		A113D81B2B48289800510B3B /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D81A2B48289800510B3B /* TextStyles.swift */; };
 		A113D81E2B49B6F100510B3B /* ButtonStyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D81D2B49B6F100510B3B /* ButtonStyleGuide.swift */; };
+		A1AB050E2B4DB6550068794E /* ShadowStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB050D2B4DB6550068794E /* ShadowStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A113D8182B48266500510B3B /* neumorphic-ui-kit-nodos.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "neumorphic-ui-kit-nodos.sketch"; sourceTree = "<group>"; };
 		A113D81A2B48289800510B3B /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
 		A113D81D2B49B6F100510B3B /* ButtonStyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleGuide.swift; sourceTree = "<group>"; };
+		A1AB050D2B4DB6550068794E /* ShadowStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			children = (
 				A113D81A2B48289800510B3B /* TextStyles.swift */,
 				A113D81D2B49B6F100510B3B /* ButtonStyleGuide.swift */,
+				A1AB050D2B4DB6550068794E /* ShadowStyles.swift */,
 			);
 			path = StyleGuide;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1AB050E2B4DB6550068794E /* ShadowStyles.swift in Sources */,
 				A113D81E2B49B6F100510B3B /* ButtonStyleGuide.swift in Sources */,
 				A113D81B2B48289800510B3B /* TextStyles.swift in Sources */,
 				A113D7F02B481C7B00510B3B /* ContentView.swift in Sources */,
