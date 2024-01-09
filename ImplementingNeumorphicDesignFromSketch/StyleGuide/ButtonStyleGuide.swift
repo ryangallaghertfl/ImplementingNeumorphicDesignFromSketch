@@ -38,10 +38,6 @@ struct ButtonStyleGuide: View {
 struct SmallPrimaryButtonStyle: ButtonStyle {
     @Environment(\.isEnabled) var isEnabled
     
-    var lightShadowColour: Color {
-        isEnabled ? Color("shadowColourYellow") : Color("shadowColourLight")
-    }
-    
     var backgroundColour: Color {
         isEnabled ? Color("AccentColor") : Color("Background-1")
     }
